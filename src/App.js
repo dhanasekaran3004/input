@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route>
           <Route path='/input' index element={<Home />} />
-          <Route path="/input/success" element={<Success />} />
+          <Route path="/success" element={<Success />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
