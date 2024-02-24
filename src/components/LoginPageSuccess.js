@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../css/home.css";
 import { isMobile } from "./helper";
 import DesktopLayout from "./DesktopLayout";
@@ -10,6 +11,9 @@ function Success() {
         <>
             <div className="loginSuccessText">
                 <h4>Logged-In Successfully</h4>
+                <a>
+                    <Link to="/input">Go to the home page</Link>
+                </a>
             </div>
         </>
     )
@@ -25,7 +29,7 @@ function Success() {
                 <DesktopLayout content={successContent} />
             }
             {deviceType &&
-                <MobileLayout content={MobileSuccessContent}/>
+                <MobileLayout content={MobileSuccessContent} />
             }
         </>
     );
