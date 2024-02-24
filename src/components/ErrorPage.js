@@ -11,7 +11,7 @@ function NoMatch() {
       <div className="loginSuccessText">
         <h2>Nothing to see here!</h2>
         <p>
-          <Link to="/input-validation">Go to the home page</Link>
+          <Link to="/input">Go to the home page</Link>
         </p>
       </div>
     </>
