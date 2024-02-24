@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/input-validation/'>
-          <Route index element={<Home />} />
+          <Route path='/input-validation/' index element={<Home />} />
           <Route path="Success" element={<Success />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
