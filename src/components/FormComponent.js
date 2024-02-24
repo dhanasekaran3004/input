@@ -28,7 +28,7 @@ function Form() {
           setPasswordError('The password must be 8 characters or longer');
         }
         else{
-            navigate('/Success')
+            navigate('/input/success')
         }
     }
     return (
