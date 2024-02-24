@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route>
+        <Route path="/input">
           <Route path='/input' index element={<Home />} />
           <Route path="/input/success" element={<Success />} />
           <Route path="*" element={<NoMatch />} />
