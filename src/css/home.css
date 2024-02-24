@@ -1,0 +1,177 @@
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: #DCE9EE;
+    position: absolute;
+    top: 58%;
+    right: 15%;
+    transform: translateY(-50%);
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.content-container{
+    margin: 15px;
+}
+
+.logoImage img{
+    width: 185px;
+    height: 65px;
+}
+
+.loginText{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    padding-left: 11px;
+}
+
+.form-container{
+    padding-left: 11px;
+    padding-top: 20px;
+}
+
+label{
+    opacity: 0.7;
+}
+
+.inputBox{
+    width: 95%;
+    background-color: #DCE9EE;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.forgotPass{
+    color: #E51058;
+    float: right;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.inputButton{
+    margin-top: 10px;
+    width: 95%;
+    background-color: #E51058;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.signText{
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.signUpLink{
+    color: #E51058;
+    cursor: pointer;
+}
+
+.loginSuccessText{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 380px;
+    display: grid;
+    place-items: center;
+}
+
+.errorText{
+    color: #E51058;
+}
+
+/*mobile css*/
+
+.MLogo{
+    width: 162px;
+}
+
+.MTape{
+    width: 135px;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+}
+
+.firstContainer{
+    width: 50%;
+    position: relative;
+    top: 3rem;
+    left: 1rem 
+}
+
+.secondContainer{
+    display: flex;
+    width: 50%;
+    flex-direction: row-reverse;
+    padding-top: 15px;
+}
+
+.MobileForm{
+    padding-top: 2rem;
+}
+
+.MobileForm .form-container .inputContainer .inputBox{
+    width: 90%;
+    background-color: white;
+}
+
+.MobileForm .form-container{
+    padding-left: 30px;
+}
+
+.MobileForm .form-container .forgotPass{
+    padding-right: 30px;
+}
+
+.MobileForm .form-container .inputContainer .inputButton{
+    width: 90%;
+}
+
+.mobileDesign .signText{
+    padding-top: 0rem;
+}
+
+.bottomImage{
+    padding-top: 5px;
+}
+
+.bottomImage .personImage{
+    width: 250px;
+    height: 237px;
+    position: absolute;
+    left: 1rem;
+}
+
+.bottomImage .tapeImage{
+    width: 360px;
+    height: 108px;
+    padding-top: 1rem;
+}
+
+.mobileDesign .loginSuccessText{
+    height: 290px;
+    color: #E51058;
+}
+
+/*tablet css*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .container {
+        right: 28%;
+        width: 400px;
+        height: 520px;
+    }
+}
