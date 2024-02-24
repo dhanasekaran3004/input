@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/'>
+        <Route path='/input-validation/'>
           <Route index element={<Home />} />
           <Route path="Success" element={<Success />} />
           <Route path="*" element={<NoMatch />} />
